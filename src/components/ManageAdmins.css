@@ -1,0 +1,23 @@
+.admins-table th,
+.admins-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.admins-table th {
+    background-color: #f4f4f4;
+}
+
+.admins-table button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.admins-table button:hover {
+    background-color: #c0392b;
+}

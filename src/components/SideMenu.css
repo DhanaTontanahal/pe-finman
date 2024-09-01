@@ -1,0 +1,144 @@
+.side-menu {
+    background-color: #333;
+    color: #ffffff;
+    position: fixed;
+    z-index: 1000;
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    /* Remove scroll bar */
+}
+
+.side-menu.collapsed {
+    width: 80px;
+}
+
+.side-menu.open {
+    transform: translateX(0);
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.side-menu ul li {
+    padding: 15px;
+}
+
+.side-menu ul li a,
+.side-menu ul li button {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.side-menu ul li a span,
+.side-menu ul li button span {
+    margin-left: 10px;
+}
+
+.side-menu ul li a:hover,
+.side-menu ul li button:hover {
+    background-color: #444;
+}
+
+.signout-button {
+    cursor: pointer;
+}
+
+.collapse-toggle {
+    padding: 10px;
+    cursor: pointer;
+    background-color: cadetblue !important;
+    text-align: center;
+    z-index: 2000;
+    /* Ensures it is above other elements */
+}
+
+.collapse-toggle.top {
+    align-self: flex-end;
+}
+
+.collapse-toggle.center {
+    position: absolute;
+    left: calc(100% - 20px);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2000;
+    /* Greater z-index to ensure it is above other elements */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.hamburger-icon {
+    display: none;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+    color: #ffffff;
+    z-index: 1100;
+    cursor: pointer;
+}
+
+.hamburger-icon.open {
+    left: auto;
+    right: 15px;
+}
+
+.menu-heading {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu-heading span {
+    font-weight: bold;
+}
+
+.menu-heading .icon {
+    margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+    .side-menu {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        transform: translateX(-100%);
+    }
+
+    .side-menu.open {
+        transform: translateX(0);
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .hamburger-icon.open {
+        left: auto;
+        right: 15px;
+    }
+
+    .collapse-toggle.center {
+        left: auto;
+        right: calc(100% - 20px);
+    }
+}

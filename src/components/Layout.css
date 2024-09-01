@@ -1,0 +1,17 @@
+/* src/components/Layout.css */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+.main-content.menu-open {
+    margin-left: 250px;
+    /* Adjust based on your side menu width */
+}

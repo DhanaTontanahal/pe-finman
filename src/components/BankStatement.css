@@ -1,0 +1,58 @@
+.bank-statement {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.transactions-table th,
+.transactions-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.transactions-table th {
+    background-color: #f4f4f4;
+}
+
+.cost-savings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cost-saving-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cost-saving-item.red {
+    background-color: #ffdddd;
+}
+
+.cost-saving-item.orange {
+    background-color: #ffe4b5;
+}
+
+.cost-saving-item.yellow {
+    background-color: #ffffe0;
+}
+
+.cost-saving-item.blue {
+    background-color: #e0f7fa;
+}
+
+.cost-saving-item.green {
+    background-color: #e0ffe0;
+}
+
+.cost-saving-item .fa-icon {
+    margin-right: 10px;
+}

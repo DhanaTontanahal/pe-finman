@@ -1,0 +1,129 @@
+/* Tree.css */
+
+/* Container for the entire tree */
+.tree-container {
+    padding: 20px;
+}
+
+.tree-container.vertical {
+    display: block;
+    /* Vertical layout */
+}
+
+.tree-container.horizontal {
+    display: flex;
+    /* Horizontal layout */
+    flex-direction: row;
+    /* Align children horizontally */
+    align-items: flex-start;
+    /* Align items at the top */
+}
+
+/* Toggle button styles */
+.toggle-layout {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.toggle-layout:hover {
+    background-color: #0056b3;
+}
+
+/* Container for each tree node */
+.tree-node-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Horizontal layout for tree nodes */
+.tree-node-container.horizontal {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    /* Add space between horizontal nodes */
+}
+
+/* Individual tree node styling */
+.tree-node {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 200px;
+    background-color: #f9f9f9;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Node content styling */
+.node-content {
+    font-weight: bold;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+/* Styling for node action buttons */
+.node-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Expand/collapse button styling */
+.expand-collapse-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+}
+
+/* Styling for children nodes container */
+.tree-children {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+}
+
+/* Adjustments for horizontal layout of children */
+.tree-children.horizontal {
+    margin-left: 0;
+    margin-top: 0;
+    border-left: none;
+    padding-left: 0;
+    flex-direction: row;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+
+/* Adjustments for horizontal layout of the tree */
+.tree-container.horizontal .tree-node-container {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.tree-container.horizontal .tree-children {
+    padding-left: 0;
+    padding-top: 10px;
+}

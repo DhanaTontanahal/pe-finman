@@ -1,0 +1,941 @@
+{
+  "admins": {
+    "nHFvHTxQFoZfUNnfdkkW6Fn65As2": {
+      "displayName": "Dhana Shekhar",
+      "email": "dhanatontanahal@gmail.com",
+      "lastLoggedIn": "2024-08-04T23:15:09.850Z"
+    }
+  },
+  "clients": {
+    "-O3JVbY1hrsMo82QEymC": {
+      "address": "Telangana",
+      "archived": true,
+      "currency": "INR",
+      "id": "-O3JVbY1hrsMo82QEymC",
+      "name": "Dhana Shekhar Tontanahal"
+    },
+    "-O3JVdGNvLrpcyxNY9Pw": {
+      "address": "US",
+      "currency": "USD",
+      "id": "-O3JVdGNvLrpcyxNY9Pw",
+      "name": "Test client"
+    },
+    "-O3JkmAZ0LMYGMbkMO86": {
+      "address": "RAIDURG",
+      "currency": "USD",
+      "id": "-O3JkmAZ0LMYGMbkMO86",
+      "name": "WELLSFARGO"
+    },
+    "-O3KyroFNirfBsLB79xY": {
+      "address": "Canada",
+      "currency": "CAD",
+      "id": "-O3KyroFNirfBsLB79xY",
+      "name": "Smooth Commerce"
+    }
+  },
+  "organization": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "id": "emp1",
+                        "name": "Employee 1",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp2",
+                        "name": "Employee 2",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp3",
+                        "name": "Employee 3",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp4",
+                        "name": "Employee 4",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp5",
+                        "name": "Employee 5",
+                        "role": "Employee"
+                      }
+                    ],
+                    "empId": "11334",
+                    "id": "mgr1",
+                    "name": "Venkat Sri reddy",
+                    "role": "Director"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp6",
+                        "name": "Employee 6",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp7",
+                        "name": "Employee 7",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp8",
+                        "name": "Employee 8",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp9",
+                        "name": "Employee 9",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp10",
+                        "name": "Employee 10",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr2",
+                    "name": "Manager 2",
+                    "role": "Manager"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp11",
+                        "name": "Employee 11",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp12",
+                        "name": "Employee 12",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp13",
+                        "name": "Employee 13",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp14",
+                        "name": "Employee 14",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp15",
+                        "name": "Employee 15",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr3",
+                    "name": "Manager 3",
+                    "role": "Manager"
+                  }
+                ],
+                "empId": "23234",
+                "id": "vp1",
+                "name": "Raghu Burra",
+                "role": "Vice President- Delivery"
+              }
+            ],
+            "id": "gd1",
+            "name": "Group Director 1",
+            "role": "Group Director"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "id": "emp16",
+                        "name": "Employee 16",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp17",
+                        "name": "Employee 17",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp18",
+                        "name": "Employee 18",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp19",
+                        "name": "Employee 19",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr4",
+                    "name": "Manager 4",
+                    "role": "Manager"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp21",
+                        "name": "Employee 21",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp22",
+                        "name": "Employee 22",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp23",
+                        "name": "Employee 23",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp24",
+                        "name": "Employee 24",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp25",
+                        "name": "Employee 25",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr5",
+                    "name": "Manager 5",
+                    "role": "Manager"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp26",
+                        "name": "Employee 26",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp27",
+                        "name": "Employee 27",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp28",
+                        "name": "Employee 28",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp29",
+                        "name": "Employee 29",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp30",
+                        "name": "Employee 30",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr6",
+                    "name": "Manager 6",
+                    "role": "Manager"
+                  }
+                ],
+                "id": "vp2",
+                "name": "Vice President 2",
+                "role": "Vice President"
+              }
+            ],
+            "id": "gd2",
+            "name": "Group Director 2",
+            "role": "Group Director"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "id": "emp31",
+                        "name": "Employee 31",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp32",
+                        "name": "Employee 32",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp33",
+                        "name": "Employee 33",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp34",
+                        "name": "Employee 34",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp35",
+                        "name": "Employee 35",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr7",
+                    "name": "Manager 7",
+                    "role": "Manager"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp36",
+                        "name": "Employee 36",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp37",
+                        "name": "Employee 37",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp38",
+                        "name": "Employee 38",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp39",
+                        "name": "Employee 39",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp40",
+                        "name": "Employee 40",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr8",
+                    "name": "Manager 8",
+                    "role": "Manager"
+                  },
+                  {
+                    "children": [
+                      {
+                        "id": "emp41",
+                        "name": "Employee 41",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp42",
+                        "name": "Employee 42",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp43",
+                        "name": "Employee 43",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp44",
+                        "name": "Employee 44",
+                        "role": "Employee"
+                      },
+                      {
+                        "id": "emp45",
+                        "name": "Employee 45",
+                        "role": "Employee"
+                      }
+                    ],
+                    "id": "mgr9",
+                    "name": "Manager 9",
+                    "role": "Manager"
+                  }
+                ],
+                "id": "vp3",
+                "name": "Vice President 3",
+                "role": "Vice President"
+              }
+            ],
+            "id": "gd3",
+            "name": "Group Director 3",
+            "role": "Group Director"
+          }
+        ],
+        "empId": "",
+        "id": "coo",
+        "name": "MADHURI",
+        "role": "Chief Operating Officer"
+      }
+    ],
+    "empId": "",
+    "id": "ceo",
+    "name": "RAJ",
+    "role": "CEO"
+  },
+  "projects": {
+    "-O3JVgZ-fBUK8M5y8964": {
+      "clientId": "-O3JVbY1hrsMo82QEymC",
+      "description": "twert",
+      "id": "-O3JVgZ-fBUK8M5y8964",
+      "name": "Project 1",
+      "status": "active",
+      "tasks": {
+        "-O3QCcfX9F5ygfSdov4D": "fdgs",
+        "-O3QDJ0PC0_fUItnOQat": "t2",
+        "-O3QDKgPzaxe5FeDBlmm": "t3",
+        "-O3QDiXuvxdqlTRE2vUo": "t4",
+        "-O3QEWVNY1Sxu4WH1lLx": "t5",
+        "-O3QEXe-ySMQmDMxQWcx": "t6",
+        "-O3QE_XNkG_RD43QBmMn": "t7"
+      }
+    },
+    "-O3JkeEDPjJHnXeEQB3Y": {
+      "clientId": "-O3JVdGNvLrpcyxNY9Pw",
+      "description": "ABC",
+      "id": "-O3JkeEDPjJHnXeEQB3Y",
+      "name": "ABC",
+      "status": "active",
+      "tasks": {
+        "-O3QGTi5NP1CwRtFgcle": "ts1"
+      }
+    },
+    "-O3JkhydIrv9AHwjAH_A": {
+      "clientId": "-O3JVdGNvLrpcyxNY9Pw",
+      "description": "",
+      "id": "-O3JkhydIrv9AHwjAH_A",
+      "name": "WELLS",
+      "status": "active"
+    },
+    "-O3KykAVvjiO9_SDtKmP": {
+      "client": "Canada-Smooth commerce",
+      "clientId": "-O3KyroFNirfBsLB79xY",
+      "color": "#ea2e2e",
+      "description": "fwe",
+      "id": "-O3KykAVvjiO9_SDtKmP",
+      "name": "Smooth Commerce",
+      "public": true,
+      "template": "ecommerce"
+    }
+  },
+  "submittedTimeSheets": {
+    "dhanatontanahal": {
+      "2024-08-05": [
+        [
+          {
+            "date": "2024-08-05",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-06",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-07",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-08",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-09",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-10",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-11",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          }
+        ],
+        [
+          {
+            "date": "2024-08-05",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-06",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-07",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-08",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-09",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-10",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-11",
+            "time": "00:00"
+          }
+        ]
+      ],
+      "2024-08-12": [
+        [
+          {
+            "date": "2024-08-12",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-13",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-14",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-15",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-16",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-17",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-18",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "00:00"
+          }
+        ]
+      ],
+      "2024-08-19": [
+        [
+          {
+            "date": "2024-08-19",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-20",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-21",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-22",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-23",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-24",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-25",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          }
+        ]
+      ],
+      "2024-08-26": [
+        [
+          {
+            "date": "2024-08-26",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-27",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-28",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-29",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-30",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-31",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-09-01",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "00:00"
+          }
+        ],
+        [
+          {
+            "date": "2024-08-26",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-27",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-28",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-29",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-30",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          },
+          {
+            "date": "2024-08-31",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-09-01",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          }
+        ]
+      ]
+    },
+    "urwithdhanu": {
+      "2024-08-12": [
+        [
+          {
+            "date": "2024-08-12",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-13",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-14",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-15",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-16",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-17",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-18",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          }
+        ]
+      ],
+      "2024-08-19": [
+        [
+          {
+            "date": "2024-08-19",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-20",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-21",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-22",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-23",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          {
+            "date": "2024-08-24",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          },
+          {
+            "date": "2024-08-25",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "00:00"
+          }
+        ]
+      ]
+    }
+  },
+  "tags": {
+    "-O3JZgJyEdEufoit-Tb3": {
+      "description": "yudgkj",
+      "id": "-O3JZgJyEdEufoit-Tb3",
+      "name": "test tag"
+    },
+    "-O3JZkK2kEnbUoWb-sES": {
+      "description": "test tag 3 desc",
+      "id": "-O3JZkK2kEnbUoWb-sES",
+      "name": "test tag 3"
+    }
+  },
+  "timeEntries": {
+    "dhanatontanahal": {
+      "2024-02-12": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QCcfX9F5ygfSdov4D": {
+            "date": "2024-02-16",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          }
+        }
+      },
+      "2024-08-05": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-05",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          },
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-09",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-05",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      },
+      "2024-08-06": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-06",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "02:02"
+          },
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-06",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-06",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      },
+      "2024-08-07": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-07",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          },
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-07",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-07",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      },
+      "2024-08-08": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-08",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          },
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-08",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-08",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      },
+      "2024-08-09": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-09",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          },
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-09",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "02:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-09",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      },
+      "2024-08-12": {
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-16",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "08:00"
+          }
+        }
+      },
+      "2024-08-19": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QCcfX9F5ygfSdov4D": {
+            "date": "2024-08-23",
+            "projectClient": "Project 1 - fdgs - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          },
+          "-O3QDJ0PC0_fUItnOQat": {
+            "date": "2024-08-23",
+            "projectClient": "Project 1 - t2 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          }
+        }
+      },
+      "2024-08-26": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QEWVNY1Sxu4WH1lLx": {
+            "date": "2024-08-30",
+            "projectClient": "Project 1 - t5 - Dhana Shekhar Tontanahal",
+            "time": "04:00"
+          }
+        },
+        "-O3JkeEDPjJHnXeEQB3Y": {
+          "-O3QGTi5NP1CwRtFgcle": {
+            "date": "2024-08-30",
+            "projectClient": "ABC - ts1 - Test client",
+            "time": "04:00"
+          }
+        }
+      }
+    },
+    "urwithdhanu": {
+      "2024-08-12": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDiXuvxdqlTRE2vUo": {
+            "date": "2024-08-16",
+            "projectClient": "Project 1 - t4 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          }
+        }
+      },
+      "2024-08-19": {
+        "-O3JVgZ-fBUK8M5y8964": {
+          "-O3QDKgPzaxe5FeDBlmm": {
+            "date": "2024-08-23",
+            "projectClient": "Project 1 - t3 - Dhana Shekhar Tontanahal",
+            "time": "08:00"
+          }
+        }
+      }
+    }
+  },
+  "users": {
+    "registered": {
+      "-O2lry5PxaJVWjYYbSFr": {
+        "dobYear": "1992",
+        "email": "urwithdhanu@googlemail.com",
+        "lastLoggedIn": "2024-08-21T04:53:12.527Z",
+        "password": "test",
+        "uid": "admin@admin.com"
+      },
+      "nHFvHTxQFoZfUNnfdkkW6Fn65As2": {
+        "displayName": "Dhana Shekhar",
+        "email": "dhanatontanahal@gmail.com",
+        "lastLoggedIn": "2024-08-21T10:20:26.833Z"
+      },
+      "wA0coRwcm1f0Hhufi7DbKmbktSa2": {
+        "displayName": "Dhana Shekhar Tontanahal",
+        "email": "urwithdhanu@googlemail.com",
+        "lastLoggedIn": "2024-08-21T04:52:04.559Z"
+      }
+    }
+  }
+}

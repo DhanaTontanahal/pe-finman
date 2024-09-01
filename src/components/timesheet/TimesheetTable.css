@@ -1,0 +1,20 @@
+.timesheets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timesheets-table th,
+.timesheets-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    color: #007bff;
+}

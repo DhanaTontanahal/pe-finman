@@ -1,0 +1,72 @@
+/* TreeNode.css */
+.tree-node-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tree-node-container.horizontal {
+    flex-direction: row;
+    align-items: center;
+}
+
+.tree-node {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 200px;
+    background-color: #f9f9f9;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.node-content {
+    font-weight: bold;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.node-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.expand-collapse-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+}
+
+.tree-children {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+}
+
+.tree-children.horizontal {
+    margin-left: 0;
+    margin-top: 0;
+    border-left: none;
+    padding-left: 0;
+    flex-direction: row;
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
